@@ -26,7 +26,9 @@
     "eslint": "eslint . --ext .ts",
     "prettier:write": "prettier --write \"src/**/*.{ts,json}\"",
     "prettier:check": "prettier --check \"src/**/*.ts\"",
-    "test": "yarn eslint && yarn prettier:check"
+    "test": "yarn eslint && yarn prettier:check",
+    "prepack": "npm run build",
+    "postinstall": "npm run build || true"
   },
   "dependencies": {
     "@aws-sdk/client-sts": "^3.473.0",
@@ -60,5 +62,12 @@
     "prettier": "^2.8.8",
     "ts-node-dev": "^1.1.8",
     "typescript": "^5.4.3"
-  }
+  }, 
+
+    "files": [
+      "lib/**/*",
+      "*.md",
+      "LICENSE"
+    ]
 }
+
