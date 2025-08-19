@@ -31,10 +31,10 @@
     "postinstall": "npm run build || true"
   },
   "dependencies": {
-    "@aws-sdk/client-sts": "^3.473.0",
-    "@smithy/node-http-handler": "^2.5.0",
-    "bluebird": "^3.7.2",
-    "cheerio": "^1.0.0-rc.10",
+    "@aws-sdk/client-sts":"3.864.0",
+    "@smithy/node-http-handler":"4.1.1",
+    "bluebird":"3.7.2",
+    "cheerio":"1.1.2",
     "commander": "^9.5.0",
     "debug": "^4.3.1",
     "ini": "^3.0.1",
@@ -42,7 +42,7 @@
     "lodash": "^4.17.21",
     "mkdirp": "^1.0.4",
     "proxy-agent": "^6.4.0",
-    "puppeteer": "^13.7.0",
+    "puppeteer":"24.16.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
