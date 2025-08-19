@@ -35,15 +35,15 @@
     "@smithy/node-http-handler":"4.1.1",
     "bluebird":"3.7.2",
     "cheerio":"1.1.2",
-    "commander": "^9.5.0",
-    "debug": "^4.3.1",
-    "ini": "^3.0.1",
-    "inquirer": "^8.2.6",
-    "lodash": "^4.17.21",
+    "commander":"14.0.0",
+    "debug":"4.4.1",
+    "ini":"5.0.0",
+    "inquirer":"12.9.3",
+    "lodash":"4.17.21",
     "mkdirp": "^1.0.4",
-    "proxy-agent": "^6.4.0",
+    "proxy-agent":"6.5.0",
     "puppeteer":"24.16.2",
-    "uuid": "^8.3.2"
+    "uuid":"11.1.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.42",
