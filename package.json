@@ -60,11 +60,5 @@
     "prettier": "^2.8.8",
     "ts-node-dev": "^1.1.8",
     "typescript": "^5.4.3"
-  }, 
-
-    "files": [
-      "lib/**/*",
-      "*.md",
-      "LICENSE"
-    ]
+  }
 }
