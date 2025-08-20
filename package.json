@@ -36,7 +36,7 @@
     "commander":"^14.0.0",
     "debug":"^4.4.1",
     "ini":"^5.0.0",
-    "inquirer":"^12.9.3",
+    "inquirer":"12.9.3",
     "lodash":"^4.17.21",
     "mkdirp": "^1.0.4",
     "proxy-agent":"^6.5.0",
