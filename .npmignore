@@ -8,4 +8,3 @@ docker-launch.sh
 Dockerfile
 snapcraft.yaml
 tsconfig.json
-node_modules/
