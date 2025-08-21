@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-sts":"^3.872.0",
-    "@smithy/node-http-handler":"^4.1.1",
+    "@smithy/node-http-handler":"^2.5.0",
     "bluebird":"^3.7.2",
     "cheerio":"^1.1.2",
     "commander":"^14.0.0",
